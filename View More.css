@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vid{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 800px;
+    height: 780px;
+}

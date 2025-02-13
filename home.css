@@ -1,0 +1,152 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#box{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.home{
+    background-image:url(happy.jpg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-clip: text;
+    margin-top: 100px;
+    height: 100vh;
+    width: 900px;
+    
+    justify-content: center;
+    animation: myani 5s linear infinite;
+    
+}
+.happy{
+    font-size: 150px;
+    color: transparent;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.img1{
+margin-top: 80px;
+margin-right: 70px;
+
+}
+
+@keyframes myani{
+    0%{
+        background-position: 0 0;
+        background-size: 0;
+    }
+    80%{
+        background-position: 100% 0;
+        background-size: 100%;
+    }
+    100%{
+        background-position: 100% 0;
+        background-size: 100%; 
+    }
+}
+#parag{
+    
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+
+}
+.p1{
+    display: flex;
+}
+
+.parag1{
+    border: 1px solid white;
+    width:230px;
+    height: 250px;
+    padding: 15px;
+    margin-right: 20px;
+    
+
+}
+.parag2{
+    border: 1px solid white;
+    color: red;
+    width:230px;
+    height: 250px;
+    padding: 15px;
+    margin-right: 20px;
+
+}
+.parag3{
+    border: 1px solid white;
+    width:230px;
+    height: 250px;
+    padding: 15px;
+
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: red;
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+    margin-top: 20px;
+}
+
+.image-container {
+    
+    height: 900px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation: scaleImage 3s ease-in-out infinite;
+}
+
+@keyframes scaleImage {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+h3{
+    margin-top: 30px;
+}
+.lun{
+    list-style: none;
+    margin-top: 15px;
+    
+}
+li>a{
+color:white;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+background-color: red;
+border: 1px solid red;
+border-radius: 20px;
+padding: 10px;
+text-align: center;
+}
+li>a:hover{
+color:red;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+background-color: black;
+border: 1px solid white;
+border-radius: 20px;
+padding: 10px;
+text-align: center;
+}
